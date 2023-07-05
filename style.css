@@ -1,0 +1,37 @@
+body{
+    margin:0px;
+}
+#calculator{
+width: 300px;
+margin: 20px auto;
+background-color: rgb(82, 82, 255);
+}
+#buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+  }
+  button {
+    padding: 5px;
+    font-size: 16px;
+    background-color: rgb(124, 119, 119);
+    border-radius: 20%;
+    font-size: large;
+    font-weight: bold;
+    margin: 10px;
+  }
+  #screen{
+    padding:20px;
+    text-align: end;
+    color: rgb(255, 255, 255);
+  }
+  .noneNum{
+    color: rgb(24, 238, 24);
+  }
+  .num{
+    color: aliceblue;
+  }
+  #equal{
+    background-color: rgb(24, 238, 24);
+    color: white;
+  }
