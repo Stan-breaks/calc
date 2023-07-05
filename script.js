@@ -24,7 +24,7 @@ buttons.forEach((button)=>{
      }
     }
     else if(buttontext==="C"){
-       buttontext="0"
+       screen.textContent="0"
     }
     else if(buttontext==="D"){
        screen.textContent=screen.textContent.slice(0,-1);
